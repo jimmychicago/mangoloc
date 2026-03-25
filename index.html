@@ -1,41 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mangoloc - Sport & Outdoor</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {margin:0;font-family:Arial;background:#f4f4f4;}
-    header {background:#111;color:#fff;padding:20px;text-align:center;}
-    header h1 {margin:0;}
-    section {padding:40px;text-align:center;}
-    .btn {background:#000;color:#fff;padding:12px 20px;text-decoration:none;border-radius:5px;}
-    footer {background:#111;color:#fff;text-align:center;padding:20px;}
-  </style>
+<meta charset="UTF-8">
+<title>Mangoloc - Sport & Outdoor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background:#f5f5f5;
+}
+
+header {
+  background:#111;
+  color:#fff;
+  padding:20px;
+  text-align:center;
+}
+
+nav {
+  background:#222;
+  padding:10px;
+  text-align:center;
+}
+
+nav a {
+  color:#fff;
+  margin:0 15px;
+  text-decoration:none;
+}
+
+.hero {
+  background:url('https://images.unsplash.com/photo-1526401485004-2fda9f93c1f7') center/cover;
+  color:#fff;
+  padding:80px 20px;
+  text-align:center;
+}
+
+.hero h1 {
+  font-size:40px;
+}
+
+.section {
+  padding:40px 20px;
+  text-align:center;
+}
+
+.products {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card {
+  background:#fff;
+  width:250px;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width:100%;
+  border-radius:8px;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 15px;
+  background:#000;
+  color:#fff;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+footer {
+  background:#111;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>MANGOLOC</h1>
+  <h1>MANGOLOC™</h1>
   <p>Sport & Outdoor Apparel</p>
 </header>
 
-<section>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Products</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Performance Meets Style</h1>
+  <p>Premium Sport & Outdoor Clothing</p>
+  <a href="#" class="btn">Shop Now</a>
+</div>
+
+<div class="section">
+  <h2>Featured Products</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+      <h3>Running Shirt</h3>
+      <p>Breathable, lightweight fabric.</p>
+      <b>$29.99</b><br>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c">
+      <h3>Hiking Jacket</h3>
+      <p>Water-resistant outdoor jacket.</p>
+      <b>$59.99</b><br>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+      <h3>Training Shorts</h3>
+      <p>Flexible and comfortable.</p>
+      <b>$24.99</b><br>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
   <h2>About Us</h2>
-  <p>Mangoloc is a modern brand focused on high-quality sport and outdoor clothing designed for performance, comfort, and style.</p>
-</section>
+  <p>Mangoloc is a modern brand focused on high-quality sport and outdoor apparel designed for performance and comfort.</p>
+</div>
 
-<section>
-  <h2>Our Products</h2>
-  <p>Running • Gym • Hiking • Outdoor Wear</p>
-</section>
+<div class="section">
+  <h2>Policies</h2>
+  <p>Shipping: 5-10 business days</p>
+  <p>Returns: 30-day return guarantee</p>
+</div>
 
-<section>
+<div class="section">
   <h2>Contact</h2>
   <p>Email: support@mangoloc.com</p>
   <p>Address: 123 Outdoor Ave, Los Angeles, CA</p>
-</section>
+</div>
 
 <footer>
   <p>© 2026 Mangoloc. All rights reserved.</p>
